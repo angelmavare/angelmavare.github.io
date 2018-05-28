@@ -1,0 +1,24 @@
+.exp-icon{
+    color:white; 
+    font-size: 6em; 
+    text-align: center;
+}
+.hero__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -400;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/computer-893258_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.features {
+    background-color: rgba(59, 62, 82, 0.99);
+    background-image: -webkit-linear-gradient(top right, #354b15, #1b5752 2100px);
+    background-image: linear-gradient(to bottom left, #354b15, #1b5752 2100px);
+    position: relative;
+    overflow: hidden;
+}
