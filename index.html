@@ -1,699 +1,312 @@
-<!DOCTYPE html><html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<!-- Basic informations -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Box personal portfolio Template</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
 
-	<!-- Site informations -->
-	<title>Angel Mavare</title>
-	<meta name="description" content="Angel Mavare Portfolio and CV">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 
-	<!-- Twitter Card -->
-	<!--
-	<meta name="twitter:title" content="">
-	<meta name="twitter:description" content="">
-	<meta name="twitter:domain" content="">
-	<meta name="twitter:image:src" content="">
-	<meta name="twitter:site" content="">
-	<meta name="twitter:creator" content="">
-	<meta name="twitter:card" content="">
-	-->
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
 
-	<!-- Favicon -->
-	<link rel="apple-touch-icon" sizes="180x180" href="style/favicon/am-favicon.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="style/favicon/am-favicon.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="style/favicon/am-favicon.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="style/favicon/am-favicon.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="style/favicon/am-favicon.png">
-	<link rel="apple-touch-icon" sizes="57x57" href="style/favicon/am-favicon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="style/favicon/am-favicon.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="style/favicon/am-favicon.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="style/favicon/am-favicon.png">
-	<link rel="icon" type="image/png" href="style/favicon/am-favicon.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="style/favicon/am-favicon.png" sizes="160x160">
-	<link rel="icon" type="image/png" href="style/favicon/am-favicon.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="style/favicon/am-favicon.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="style/favicon/am-favicon.png" sizes="32x32">
-	<link rel="shortcut icon" href="favicon.ico">
 
-	<!-- Fonts -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<link href="style/fonts/webfont-raleway/webfont-raleway.css" rel="stylesheet" type="text/css">
-	<!--link href="style/fonts/webfont-font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"-->
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
 
-	<!-- Stylesheets -->
-	<link href="style/css/global.css" type="text/css" rel="stylesheet" media="all">
-	<link href="style/css/angel-style.css" type="text/css" rel="stylesheet" media="all">
-
-	<!-- Scripts preload -->
-	<!--[if lt IE 9]><script src="style/js/html5shiv.js"></script><![endif]-->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119961799-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-119961799-1');
-	</script>
-
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
 
-
-
-
-
-
-	<!-- Some Helper Stuff -->
-	<div id="start" class="start">&nbsp;</div>
-	<div class="maxwidth1050">&nbsp;</div>
-
-
-
-
-
-
-
-	<!-- Header -->
-	<header class="header">
-		<div class="header__wrapper">
-			<div class="header__hamburger">
-				<div class="header__hamburger-block">&nbsp;</div>
-				<div class="header__hamburger-block">&nbsp;</div>
-				<div class="header__hamburger-block">&nbsp;</div>
-			</div>
-			<nav class="header__navigation">
-				<a href="#start" class="js-smooth-scroll">
-					<div class="js-smooth-scroll  header__navigation-element">Start...</div>
-				</a>
-				<a href="#experience" class="js-smooth-scroll">
-					<div class="header__navigation-element  header__navigation-element--experience">Habilidades</div>
-				</a>
-				<a href="#realizations" class="js-smooth-scroll">
-						<div class="header__navigation-element  header__navigation-element--realizations">Portafolios</div>
-					</a>
-				<a href="#features" class="js-smooth-scroll">
-					<div class="header__navigation-element  header__navigation-element--features">Mis servicios</div>
-				</a>
-				
-				<a href="#contact" class="js-smooth-scroll">
-					<div class="header__navigation-element  header__navigation-element--contact">Contacto</div>
-				</a>
-			</nav>
-
-			<a href="#start" class="header__title-wrapper  js-smooth-scroll">
-				<div class="header__title-main">Angel Mavare</div>
-				<div class="header__title-sub">UI Designer / Front-end Dev</div>
-			</a>
-
-			<div class="header__social-icons">
-				<a target="_blank" href="https://www.linkedin.com/in/angel-mavare-801b12104"><i class="fab fa-linkedin"></i></a>
-				<a target="_blank" href="https://www.behance.net/angelmavare"><i class="fab fa-behance"></i></a>
-				<a target="_blank" href="https://www.facebook.com/angel.mavare.7"><i class="fab fa-facebook"></i></a>
-				<a target="_blank" href="https://github.com/angelmavare"><i class="fab fa-github"></i></a>
-				
-			</div>
-		</div>
-	</header>
-	<!-- End Header -->
-
-
-
-
-
-
-
-
-	<!-- First Fixed "Hero" Section -->
-	<section id="hero" class="hero">
-		<div class="hero__background">&nbsp;</div>
-		<div class="hero__gradient">&nbsp;</div>
-		<div class="hero__pattern">&nbsp;</div>
-		<div class="hero__content">
-			<div class="hero__content-wrapper">
-				<div class="hero__title-wrapper">
-					<div class="hero__title-large">¡Hola!</div>
-					<div class="hero__title-small">Bienvenido a mi perfil profesional</div>
-				</div>
-				<div class="hero__photo-wrapper">
-					<div class="hero__photo">
-						<!--<div class="hero__hat">&nbsp;</div>-->
-						
-					</div>
-				</div>
-				<div class="hero__description">
-						Aquí encontraras todo lo que necesitas saber sobre mis habilidades, Hoja de vida y portafolio. Si aun así necesitas saber saber algo mas también cuentas con mi contacto.
-				</div>
-				<div class="hero__call-to-action">
-					<a href="docs/CurriculumAngelMPDF.pdf" target="_blank" class="hero__button  ghost-button  ghost-button--hero">Descargar CV &nbsp; <i class="fa fa-download"></i></a>
-					<!--a href="http://serafin.io/?utm_source=Aurora-Template&utm_medium=Hero-Alt-Button&utm_campaign=Freebie" target="_blank" class="hero__alt-button">...or find out more about me.</a-->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End First Fixed "Hero" Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Scrollable Content -->
-	<div class="content">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- "Experience" Section -->
-		<section id="experience" class="experience">
-			<div class="experience__hollow-arrow">&nbsp;</div>
-			<div class="experience__wrapper">
-				<div class="section-header">
-					<div class="section-header__title  section-header__title--experience">Mis habilidades...</div>
-					<div class="section-header__subtitle">Software y tecnologías en las que me especializo</div>
-				</div>
-				<div class="experience__icons-wrapper">
-					<div class="experience__icon  experience__icon--html5">
-						<div class="experience__icon-description">HTML5</div>
-					</div>
-					<div class="experience__icon  experience__icon--css3">
-						<div class="experience__icon-description">CSS3</div>
-					</div>
-					<div class="experience__icon  experience__icon--javascript">
-						<div class="experience__icon-description">JavaScript</div>
-					</div>
-					<div class="experience__icon exp-icon">
-						<i class="fab fa-react"></i>
-						<div class="experience__icon-description">React</div>
-					</div>
-					<div class="experience__icon  experience__icon--jquery">
-						<div class="experience__icon-description">jQuery</div>
-					</div>
-					<div class="experience__icon  experience__icon--git">
-						<div class="experience__icon-description">GIT</div>
-					</div>
-					<div class="experience__icon  experience__icon--wordpress">
-						<div class="experience__icon-description">WordPress</div>
-					</div>
-					<div class="experience__icon  experience__icon--photoshop">
-						<div class="experience__icon-description">Adobe Photoshop</div>
-					</div>
-					<div class="experience__icon  experience__icon--illustrator">
-						<div class="experience__icon-description">Adobe Illustrator</div>
-					</div>
-					<!--div class="experience__icon  experience__icon--fireworks">
-						<div class="experience__icon-description">Adobe Fireworks</div>
-					</div-->
-					<div class="experience__icon  experience__icon--bootstrap">
-						<div class="experience__icon-description">Bootstrap 4</div>
-					</div>
-					<!--div class="experience__icon  experience__icon--foundation">
-						<div class="experience__icon-description">Foundation 5</div>
-					</div-->
-				</div>
-			</div>
-		</section>
-		<!-- End "Experience" Section -->
-
-
-
-
-
-
-
-
-
-
-
-<!-- "Realizations" Section - With Projects -->
-		<section id="realizations" class="realizations">
-			<div class="realizations__wrapper">
-
-				<div class="section-header">
-					<div class="section-header__title  section-header__title--realizations">Portafolio...</div>
-					<div class="section-header__subtitle">Algunos de mis proyectos. Puedes ver más de ellos en <a target="_blank" href="https://www.behance.net/angelmavare"><b>www.behance.net</b></a></div>
-				</div>
-
-				<div class="showcase">
-					<div class="showcase__thumbnails-wrapper">
-
-						<!-- normal -->
-						<img data-project="p1" class="showcase__thumb  showcase__thumb--first  showcase__thumb--active" src="content/pthumbs-27.png">
-						<img data-project="p2" class="showcase__thumb" src="content/pthumbs-28.png">
-						<img data-project="p3" class="showcase__thumb" src="content/pthumbs-29.png">
-						<img data-project="p4" class="showcase__thumb" src="content/pthumbs-31.png">
-						<img data-project="p5" class="showcase__thumb" src="content/pthumbs-30.png">
-
-						<!-- blank template
-						<div data-project="p5" class="showcase__thumb  showcase__thumb--blank">&nbsp;</div>
-						 -->
-
-					</div>
-
-
-
-					<div class="showcase__stage-wrapper">
-
-						<!-- project 1 Pixonauta -->
-						<div data-project="p1" class="showcase__stage  showcase__stage--active">
-							<div class="showcase__slider">
-								<ul class="rslides">
-
-									<li><img src="content/pixonauta/pixo-01.jpg"></li>
-									<li><img src="content/pixonauta/pixo-02.jpg"></li>
-									<li><img src="content/pixonauta/pixo-03.jpg"></li>
-									<li><img src="content/pixonauta/pixo-04.jpg"></li>
-									<li><img src="content/pixonauta/pixo-05.jpg"></li>
-									<li><img src="content/pixonauta/pixo-06.jpg"></li>
-
-								</ul>
-							</div>
-							<div class="showcase__infos-wrapper">
-								<div class="showcase__title">
-									Pixonauta
-									<div class="showcase__title-description">Diseño y desarrollo Web</div>
-								</div>
-
-								<div class="showcase__point">
-									<div class="showcase__point-title">Mi Responsabilidad</div>
-									<div class="showcase__point-description">
-										Diseño web, Ilustración, Desarrollo Web, Diseño Gráfico.
-									</div>
-								</div>
-								<div class="showcase__point">
-									<div class="showcase__point-title">Tecnologías usadas</div>
-									<div class="showcase__point-description">
-										Wordpress, HTML5, CSS3, JavaScript, jQuery, Adobe Illustrator.
-									</div>
-								</div>
-
-
-								<div class="showcase__point">
-									<div class="showcase__point-title">Detalles</div>
-									<div class="showcase__point-details-excerpt">
-										2017. Diseño, desarrollo y montaje del sitio web, dieño de branding e ilustración vectorial orientado a la marca. <span class="showcase__ellipsis"></span><!--span class="showcase__readmore">more</span-->
-									</div>
-
-									<!--div class="showcase__point-details-full">
-										 asdasdadsadsdasd<span class="showcase__readless">less</span>
-									</div-->
-								</div>
-
-
-								<a target="_blank" href="https://www.pixonauta.com/" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
-							</div>
-						</div>
-
-						<!-- project 2 Ocelot  -->
-						<div data-project="p2" class="showcase__stage">
-							<div class="showcase__slider">
-								<ul class="rslides">
-
-									<li><img src="content/ocelot/caratula-ocelot.jpg"></li>
-									<li><img src="content/ocelot/ocelot-logos.png"></li>
-									<li><img src="content/ocelot/pantallasweb4.jpg"></li>
-									<li><img src="content/ocelot/pantallasweb5.jpg"></li>
-									<li><img src="content/ocelot/pantallasweb2.jpg"></li>
-									<li><img src="content/ocelot/pantallasweb3.jpg"></li>
-								</ul>
-							</div>
-							<div class="showcase__infos-wrapper">
-									<div class="showcase__title">
-										Ocelot
-										<div class="showcase__title-description">Diseño y desarrollo Web</div>
-									</div>
-	
-									<div class="showcase__point">
-										<div class="showcase__point-title">Mi Responsabilidad</div>
-										<div class="showcase__point-description">
-											Diseño web, Diseño de logo, Wireframes.
-										</div>
-									</div>
-									<div class="showcase__point">
-										<div class="showcase__point-title">Tecnologías usadas</div>
-										<div class="showcase__point-description">
-											HTML5, CSS3, JavaScript, jQuery, Ruby on Rails, Adobe Illustrator.
-										</div>
-									</div>
-	
-	
-									<div class="showcase__point">
-										<div class="showcase__point-title">Detalles</div>
-										<div class="showcase__point-details-excerpt">
-											Año 2017. Ocelot es un sistema de información que apoya a la gestión de mantenimiento y reparación de bienes inmuebles, el cual consta de tres componentes (web, web-desktop y móvil). Un trabajo arduo del <b>Equipo FoxHound</b> para la cátedra "Sistemas de información" de la UCLA-Venezuela.<!--<span class="showcase__ellipsis"></span>--><span class="showcase__readmore">more</span>
-										</div>
-	
-										<div class="showcase__point-details-full">
-											<p>Como encargado del componente web y diseñador del equipo, mi labor consistió en el diseño y coordinación del desarrollo en el Sitio Web. Adicionalmente crear el logotipo que identificaría al sistema.</p>  <span class="showcase__readless">less</span>
-										</div>
-									</div>
-	
-	
-									<a target="_blank" href="https://www.behance.net/gallery/60807627/Ocelot-Project-Logo-Web-Design" class="showcase__button  ghost-button  ghost-button--realizations">Visit Project</a>
-								</div>
-						</div>
-
-						<!-- project 3 SMS Shop-->
-						<div data-project="p3" class="showcase__stage">
-							<div class="showcase__slider">
-								<ul class="rslides">
-									<li><img src="content/shop/shop-JPG-09.jpg"></li>
-									<li><img src="content/shop/shop-JPG-10.jpg"></li>
-									<li><img src="content/shop/shop-JPG-11.jpg"></li>
-									<li><img src="content/shop/shop-JPG-133.jpg"></li>
-									<li><img src="content/shop/shop-JPG-144.jpg"></li>
-								</ul>
-							</div>
-							<div class="showcase__infos-wrapper">
-									<div class="showcase__title">
-										SMS Shop
-										<div class="showcase__title-description">Diseño y desarrollo Web</div>
-									</div>
-	
-									<div class="showcase__point">
-										<div class="showcase__point-title">Mi Responsabilidad</div>
-										<div class="showcase__point-description">
-											Diseño de Logo, Desarrollo Web, Diseño Gráfico, Montaje de tienda.
-										</div>
-									</div>
-									<div class="showcase__point">
-										<div class="showcase__point-title">Tecnologías usadas</div>
-										<div class="showcase__point-description">
-											Prestashop, HTML5, CSS3, JavaScript, Adobe Illustrator.
-										</div>
-									</div>
-	
-	
-									<div class="showcase__point">
-										<div class="showcase__point-title">Detalles</div>
-										<div class="showcase__point-details-excerpt">
-											Año 2018. Proyecto realizado con la agencia <b>Acon Software</b> donde se me encargo el diseño de logo y adaptación a la imagen de la tienda realizada en PrestaShop.<!--<span class="showcase__ellipsis"></span>--><span class="showcase__readmore">more</span>
-										</div>
-	
-										<div class="showcase__point-details-full">
-											<p>SMS Shop es una tienda francesa especializada en la venta de artículos de repuesto para móviles y venta de equipos celulares. </p><span class="showcase__readless">less</span>
-										</div>
-									</div>
-	
-	
-									<a target="_blank" href="https://www.behance.net/gallery/65733771/Branding-ecommerce-webdesign-project" class="showcase__button  ghost-button  ghost-button--realizations">Visit Project</a>
-								</div>
-						</div>
-
-						<!-- project 4 Dental app-->
-						<div data-project="p4" class="showcase__stage">
-							<div class="showcase__slider">
-								<ul class="rslides">
-									<li><img src="content/dentalicon/behance-icon-dental-png-01.png"></li>
-									<li><img src="content/dentalicon/behance-icon-dental-png-02.png"></li>
-									<li><img src="content/dentalicon/behance-icon-dental-png-03.png"></li>
-									<li><img src="content/dentalicon/behance-icon-dental-png-04.png"></li>
-									<li><img src="content/dentalicon/behance-icon-dental-png-06.png"></li>
-									<li><img src="content/dentalicon/behance-icon-dental-png-07.png"></li>
-									
-								</ul>
-							</div>
-							<div class="showcase__infos-wrapper">
-									<div class="showcase__title">
-										Dental App Icon
-										<div class="showcase__title-description">Diseño Gráfico</div>
-									</div>
-	
-									<div class="showcase__point">
-										<div class="showcase__point-title">Mi Responsabilidad</div>
-										<div class="showcase__point-description">
-											Diseño de Icono para aplicacion de Iphone
-										</div>
-									</div>
-									<div class="showcase__point">
-										<div class="showcase__point-title">Tecnologías usadas</div>
-										<div class="showcase__point-description">
-											Adobe Illustrator.
-										</div>
-									</div>
-	
-	
-									<div class="showcase__point">
-										<div class="showcase__point-title">Detalles</div>
-										<div class="showcase__point-details-excerpt">
-											Año 2018. Diseño de icono para aplicación de IOS, muestro parte del minucioso proceso para los trabajos mas sencillos como este. <!--<span class="showcase__ellipsis"></span>--><!--span class="showcase__readmore">more</span-->
-										</div>
-	
-										<!--div class="showcase__point-details-full">
-											 <span class="showcase__readless">less</span>
-										</div-->
-									</div>
-	
-	
-									<a target="_blank" href="https://www.behance.net/gallery/65472331/Dental-App-Icon-Design-(2018)" class="showcase__button  ghost-button  ghost-button--realizations">Visit Project</a>
-								</div>
-						</div>
-
-						<!-- project 5 Logofolio-->
-						<div data-project="p5" class="showcase__stage">
-							<div class="showcase__slider">
-								<ul class="rslides">
-									<li><img src="content/logofolio/head-logofolio.png"></li>
-									<li><img src="content/logofolio/ocelot-logofolio.png"></li>
-									<li><img src="content/logofolio/liquid-logofolio.png"></li>
-									<li><img src="content/logofolio/pointclub-logofolio.png"></li>
-									<li><img src="content/logofolio/pixonauta-logofolio.png"></li>
-									<li><img src="content/logofolio/devsolutions-logofolio.png"></li>
-									<li><img src="content/logofolio/cianix-logofolio.png"></li>
-									<li><img src="content/logofolio/uclagram-logofolio.png"></li>
-									<li><img src="content/logofolio/kuzgu-logofolio.png"></li>
-									<li><img src="content/logofolio/repuestos-en-red-logofolio.png"></li>
-									<li><img src="content/logofolio/lumeweb-logofolio.png"></li>
-									<li><img src="content/logofolio/surrealship-logofolio.png"></li>
-								</ul>
-							</div>
-							<div class="showcase__infos-wrapper">
-									<div class="showcase__title">
-										Logofolio
-										<div class="showcase__title-description">Diseño Gráfico</div>
-									</div>
-	
-									<div class="showcase__point">
-										<div class="showcase__point-title">Mi Responsabilidad</div>
-										<div class="showcase__point-description">
-											Diseño de marcas para diversas organizaciones.
-										</div>
-									</div>
-									<div class="showcase__point">
-										<div class="showcase__point-title">Tecnologías usadas</div>
-										<div class="showcase__point-description">
-											Adobe Illustrator, Adobe Photoshop.
-										</div>
-									</div>
-	
-	
-									<div class="showcase__point">
-										<div class="showcase__point-title">Detalles</div>
-										<div class="showcase__point-details-excerpt">
-											2015 - 2018 Una pequeña selección de mis trabajos de branding favoritos para diversos clientes. <!--<span class="showcase__ellipsis"></span>--><!--span class="showcase__readmore">more</span-->
-										</div>
-	
-										<!--div class="showcase__point-details-full">
-											Perfect for gathering and sharing informations on some subject, browser start page, personal notes, link bookmarking, simple project management, todo list, and many more. Possibilites are endless. <span class="showcase__readless">less</span>
-										</div-->
-									</div>
-	
-	
-									<a target="_blank" href="https://www.behance.net/gallery/60769999/Logofolio-Updated-2018" class="showcase__button  ghost-button  ghost-button--realizations">Visit Project</a>
-								</div>
-						</div>
-
-
-					</div>
-
-
-
-				</div>
-			</div>
-		</section>
-		<!-- End "Realizations" Section - With Projects -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- "Features" Section -->
-		<section id="features" class="features">
-			<div class="features__wrapper">
-				<div class="section-header">
-					<div class="section-header__title  section-header__title--features">Mis servicios</div>
-					<div class="section-header__subtitle">Me desempeño en diversas áreas de creación digital, algunas de ellas:</div>
-				</div>
-				<div class="features__elements-wrapper">
-					<div class="features__element">
-								<div class="features__image  features__image--browsers">&nbsp;</div>
-								<div class="features__text">
-									<div class="features__title">Diseño y desarrollo web</div>
-									<div class="features__description">Manejo de tecnologías front-end (HTML, CSS, React, Jquery), CMS (Wordpress, Prestashop), back-end básico (PHP, Node.).</div>
-								</div>
-					</div>
-					
-					<!--div class="features__element">
-						<div class="features__image  features__image--newest">&nbsp;</div>
-						<div class="features__text">
-							<div class="features__title">Trabajo en equipo</div>
-							<div class="features__description">Me gusta trabajar en equipos multidisciplinarios, conozco herramientas colaborativas como Git y metodologías como Scrum.</div>
-						</div>
-					</div-->
-					<div class="features__element">
-							<div class="features__image  features__image--mobile">&nbsp;</div>
-							<div class="features__text">
-								<div class="features__title">Diseño de interfaces (UI/UX)</div>
-								<div class="features__description">A la vanguardia del diseño para aplicaciones web y móviles, logrando usabilidad y calidad.</div>
-							</div>
-					</div>
-					<div class="features__element">
-						<div class="features__image  features__image--intuitive">&nbsp;</div>
-						<div class="features__text">
-							<div class="features__title">Diseño Gráfico</div>
-							<div class="features__description">Producción creativa, diseño gráfico orientado a web, imagen institucional, diseño de logos, publicidad digital.</div>
-						</div>
-					</div>
-					
-					<div class="features__element">
-						<div class="features__image  features__image--clients">&nbsp;</div>
-						<div class="features__text">
-							<div class="features__title">Ilustración</div>
-							<div class="features__description">Ilustación vectorial para proyectos web o de branding apegados a los diseños de marca.</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-		<!-- End "Features" Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- "Contact" Section -->
-		<section id="contact" class="contact">
-			<div class="contact__wrapper">
-				<div class="section-header">
-					<div class="section-header__title  section-header__title--contact">Contacto</div>
-					<div class="section-header__subtitle">Puedes contactarme vía email o a través del formulario de contato</div>
-				</div>
-
-				<div class="contact__icons-wrapper">
-					<div class="contact__icon">
-						<a target="_blank" href="mailto:angelmavare1@gmail.com"><i class="fa fa-envelope"></i></a>
-						<div class="contact__icon-description">angelmavare1@gmail.com</div>
-					</div>
-					<div class="contact__icon exp-icon">
-						<a target="_blank" href="https://twitter.com/SerafinDominik"><i class="fab fa-whatsapp"></i></a>
-						<div class="contact__icon-description">+58414524695</div>
-					</div>
-					<div class="contact__icon exp-icon">
-						<a target="_blank" href="https://www.behance.net/angelmavare/"><i class="fab fa-behance"></i></a>
-						<div class="contact__icon-description ">@angelmavare</div>
-					</div>
-				</div>
-
-				
-
-			</div>
-		</section>
-		<!-- End "Contact" Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- Footer -->
-		<footer id="footer" class="footer">
-			<div class="footer__wrapper">
-				<div class="footer__copyright">All Rights Reserved &copy; 2018</div>
-				<a href="https://www.behance.net/angelmavare/" target="_blank" class="footer__image">&nbsp;</a>
-			</div>
-		</footer>
-		<!-- End Footer -->
-
-
-
-
-
-
-
-
-	</div>
-	<!-- End Scrollable Content -->
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Scripts postload -->
-	<script src="style/js/dependencies.min.js" type="text/javascript"></script>
-	<script src="style/js/global.js" type="text/javascript"></script>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+        <!-- box header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.png" width="200" alt="Logo"></a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box header -->
+
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">About me</li>
+
+                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="contact.html">contact me</a></li>
+
+
+
+                <li class="box-label">Follow me</li>
+
+                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+
+        <!-- box-intro -->
+        <section class="box-intro">
+            <div class="table-cell">
+                <h1 class="box-headline letters rotate-2">
+                    <span class="box-words-wrapper">
+                        <b class="is-visible">design.</b>
+                        <b>&nbsp;coding.</b>
+                        <b>graphic.</b>
+                    </span>
+		        </h1>
+                <h5>everything you need to build your personal portfolio</h5>
+            </div>
+
+            <div class="mouse">
+                <div class="scroll"></div>
+            </div>
+        </section>
+        <!-- end box-intro -->
+    </div>
+
+    <!-- portfolio div -->
+    <div class="portfolio-div">
+        <div class="portfolio">
+            <div class="no-padding portfolio_container">
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6  fashion logo">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/01.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mockups in seconds</span>
+                                    <em>Fashion / Logo</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 ads graphics">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Floating mockups</span>
+                                    <em>Ads / Graphics</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-6 col-sm-12 photography">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Photorealistic smartwatch</span>
+                                    <em>Photography</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 fashion ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/04.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Held by hands</span>
+                                    <em>Fashion / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-6 col-sm-12 photography">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/010.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Photorealistic smartwatch</span>
+                                    <em>Photography</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/06.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/07.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/08.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="img/portfolio/09.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+            </div>
+            <!-- end portfolio_container -->
+        </div>
+        <!-- portfolio -->
+    </div>
+    <!-- end portfolio div -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">© Angel Mavare 2022</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+    
+    <script>
+
+const { Client } = require('@notionhq/client');
+
+const notion = new Client({ auth: process.env.NOTION_API_KEY });
+
+(async () => {
+  const databaseId = '668d797c-76fa-4934-9b05-ad288df2d136';
+  const response = await notion.databases.retrieve({ database_id: databaseId });
+  console.log(response);
+})();
+    </script>
 
 </body>
+
 </html>
