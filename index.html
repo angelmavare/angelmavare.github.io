@@ -65,7 +65,7 @@
                 <li><a href="services.html">services</a></li>
                 <li><a href="portfolio.html">portfolio</a></li>
                 <li><a href="contact.html">contact me</a></li>
-   
+
 
 
                 <li class="box-label">Follow me</li>
@@ -87,7 +87,7 @@
                         <b>&nbsp;coding.</b>
                         <b>graphic.</b>
                     </span>
-		        </h1>
+                </h1>
                 <h5>everything you need to build your personal portfolio</h5>
             </div>
 
@@ -293,19 +293,7 @@
 
     <!--  custom script -->
     <script src="js/custom.js"></script>
-    
-    <script>
 
-const { Client } = require('@notionhq/client');
-
-const notion = new Client({ auth: process.env.NOTION_API_KEY });
-
-(async () => {
-  const databaseId = '668d797c-76fa-4934-9b05-ad288df2d136';
-  const response = await notion.databases.retrieve({ database_id: databaseId });
-  console.log(response);
-})();
-    </script>
 
 </body>
 
